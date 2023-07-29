@@ -8,7 +8,7 @@
     padding: 20px 10px;
 }
 
-.container_phrase{
+.container{
     display: flex;
     flex-direction: column;
     
@@ -23,4 +23,35 @@
     
     font-weight: 400;
     text-decoration: none;
+    background-color: antiquewhite;
+    border: 2px solid ;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+.btn:hover {
+    color:lightcoral;
+}
+
+.container--phrase{
+    background-color: aliceblue;
+    min-width: 300px;
+
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+
+
+
+.h4-footer{
+    background-color: antiquewhite;
+
+    padding: 10px;
+    border-radius: 1rem;
+    opacity: 70%;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
+.h4-footer:hover{
+    color: lightcoral;
 }
